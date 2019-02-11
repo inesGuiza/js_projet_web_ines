@@ -53,5 +53,6 @@
 -   structure vu au cours
 
 ##### javascript
+- La todolist
 - Le projet web js "emporium"
 
