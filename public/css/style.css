@@ -9659,14 +9659,30 @@ h3 {
   font-family: "Poppins";
   src: url("/public/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
 }
-body {
-  vertical-align: baseline;
-  margin: 0;
-  padding: 0;
+.container-catalog img {
+  width: 100%;
 }
 
-a img {
-  vertical-align: middle;
+.row-catalog {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0px 15px 0px 15px;
+}
+.row-catalog h3 {
+  position: absolute;
+  z-index: 2;
+}
+.row-catalog h3 .catalog-style {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solide;
+  border-color: #ffffff;
+  padding: 6px;
+  text-align: center;
 }
 
 .emp-header-container {
@@ -9674,13 +9690,11 @@ a img {
   padding-right: 35px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
 }
 
 .emp-logo {
   padding-bottom: 48px;
   padding-top: 92px;
-  position: relative;
 }
 
 .logo-inner {
@@ -9690,13 +9704,11 @@ a img {
 }
 
 .navbar {
-  position: relative;
   padding-top: 25px;
 }
 
 .emp-navigation {
   justify-content: center;
-  position: relative;
   line-height: 0;
   padding-left: 0px;
   padding-right: 0px;
@@ -9705,7 +9717,6 @@ a img {
 }
 
 #navigation-1 {
-  position: relative;
   line-height: 1.7;
   text-align: center;
   margin-bottom: 0px;
@@ -9756,12 +9767,10 @@ a img {
 
 .bg-color {
   background-color: #f3f3f3;
-  height: 750px;
 }
 
 .bg-contenu {
   margin: 0 auto;
-  padding: 0;
 }
 
 .style0 {
@@ -9772,21 +9781,18 @@ a img {
   z-index: 5;
   position: relative;
   display: block;
-  overflow: visible;
   font-size: 60px;
   font-weight: 300;
   color: #bd584e;
   font-family: Poppins;
   text-align: left;
   line-height: 85px;
-  visibility: inherit;
 }
 
 .style2 {
   z-index: 6;
   position: relative;
   display: block;
-  overflow: visible;
   font-size: 130px;
   font-weight: 900;
   color: #161616;
@@ -9802,7 +9808,6 @@ a img {
   z-index: 7;
   position: relative;
   display: block;
-  overflow: visible;
   min-width: 540px;
   white-space: normal;
   font-size: 23px;
@@ -9827,17 +9832,16 @@ a img {
   letter-spacing: 1px;
   box-sizing: border-box;
   cursor: pointer;
-  visibility: inherit;
   text-align: left;
   padding: 20px 50px;
   margin-top: 40px;
-  transform-origin: 50% 50% 0px;
 }
 
 .imag1 {
-  margin: 0;
-  padding: 0;
   background-color: #f3f3f3;
+}
+
+.imag2 {
   width: 0.9;
   height: 0.9;
 }
