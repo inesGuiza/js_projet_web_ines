@@ -9806,6 +9806,94 @@ body, html {
   padding-bottom: 10px;
 }
 
+#info-section {
+  padding: 30px 0px 0px 0px;
+}
+#info-section .col-4 {
+  margin: 0px 0px 35px 0px;
+}
+#info-section h5 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #383838;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  font-family: Poppins;
+  padding: 0px 15px 40px 15px;
+}
+#info-section span {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #c6c6c6;
+}
+#info-section i {
+  padding-bottom: 50px;
+}
+#info-section button {
+  margin-bottom: 100px;
+}
+
+.info-row {
+  position: absolute;
+  width: 100%;
+}
+
+.styleinfo {
+  z-index: 8;
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  background-color: #303030;
+  border-radius: 5px;
+  border-color: #303030;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 20px 50px;
+  margin-top: 40px;
+}
+
+.styleinfo2 {
+  z-index: 8;
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #2d2d2d;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-color: #ffffff;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 20px 50px;
+  margin-top: 40px;
+}
+
+.fond1 {
+  background-color: #f3f3f3;
+  gitmargin: 0px 15px 30px 15px;
+  padding: 85px 0px;
+  height: 512px;
+}
+
+.fond2 {
+  background-color: #bd584e;
+  padding: 85px 0px;
+  height: 512px;
+}
+
+.middle-info {
+  color: #ffffff !important;
+}
+
 .emp-header-container {
   padding-left: 35px;
   padding-right: 35px;
