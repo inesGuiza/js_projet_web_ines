@@ -9836,8 +9836,12 @@ body, html {
   margin-bottom: 100px;
 }
 
+.first-col {
+  padding-left: 30px !important;
+}
+
 .info-row {
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
@@ -9879,7 +9883,7 @@ body, html {
 
 .fond1 {
   background-color: #f3f3f3;
-  gitmargin: 0px 15px 30px 15px;
+  margin: 0px 15px 30px 15px;
   padding: 85px 0px;
   height: 512px;
 }
@@ -9892,6 +9896,107 @@ body, html {
 
 .middle-info {
   color: #ffffff !important;
+}
+
+footer {
+  background-color: #212121;
+}
+
+#footer-end {
+  overflow: hidden;
+  padding: 4em 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 15em;
+}
+#footer-end .container-fluid {
+  background-color: #212121;
+  color: #9b9b9b;
+  padding: 0px 70px 0px 50px;
+  text-decoration: none;
+  overflow: hidden;
+  width: 100%;
+}
+#footer-end .row {
+  color: #9b9b9b;
+  text-decoration: none;
+  width: 100%;
+}
+#footer-end .col-4 {
+  text-decoration: none;
+  padding-left: 35px;
+  padding-right: 15px;
+}
+#footer-end a {
+  padding: 7px 16px 8px 16px;
+  margin: 5px 10px 10px 0px;
+  font-size: 13px;
+  display: inline-block;
+  text-decoration: none;
+  color: #969696;
+}
+#footer-end p {
+  font-size: 18px;
+}
+#footer-end ul {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.style10 {
+  font-family: Poppins;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+}
+
+.tag-border {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #353535 !important;
+}
+
+.border {
+  border: 1px solid #353535 !important;
+}
+
+.border-right {
+  border-right: 1px solid #353535 !important;
+}
+
+.listage {
+  font-size: 16px !important;
+}
+
+.end {
+  background-color: #0a0a0a;
+  color: #838383;
+}
+
+.end-section {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+
+.styleEnd {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #838383;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
+  font-family: Poppins;
 }
 
 .emp-header-container {
