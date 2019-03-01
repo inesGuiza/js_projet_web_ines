@@ -14,6 +14,20 @@
 
 <body class="emp-body">
 
+    <div id="login-container" class="container text-center ">
+        <div class="text-info font-weight-bold pb-4">Email address</div>
+        <input type="email" class="form-control align-self-center" placeholder="Enter email">
+
+        <div class="text-info font-weight-bold pb-4 pt-4">Password</div>
+        <input type="password" class="form-control" placeholder="Password">
+
+        <div class="form-check pt-4">
+            <input type="checkbox" class="form-check-input ">
+            <label class="form-check-label text-black font-weight-bold">Check me out</label>
+        </div>
+        <button class="btn btn-primary style4">Submit</button>
+    </div>
+
     <!-- NAV BAR -->
     <header>
         <div class="emp-header-container">
@@ -23,7 +37,7 @@
                         <img src="./images/logo.png" alt=""> </a>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white" id="myHeader">
                 <div class="emp-navigation collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div id="navigation-1" class="navbar-nav">
                         <li class="menu-items">
@@ -48,10 +62,10 @@
                 </div>
                 <div class="connection1 align-items-center d-flex">
                     <li class="connection2">
-                        <button type="button" class="nav-item nav-link border border-dark"></button>
+                        <button type="button" class="nav-item nav-link border border-dark colorWhite"></button>
                     </li>
                     <li class="connection2">
-                        <button type="button" class="nav-item nav-link border border-dark bg-dark"></button>
+                        <button type="button" class="nav-item nav-link border border-dark bg-dark colorNoir"></button>
                     </li>
                     <li class="connection2">
                         <button type="button" class="nav-item nav-link btn btn-dark connection3">Connection</button>
@@ -62,312 +76,401 @@
     </header>
     <!-- FIN NAV BAR -->
 
-    <!-- PREMIERE SECTION -->
-    <div class="bg-color">
-        <div class="container-fluid bg-contenu">
-            <div class="row imag1 align-items-center">
-                <div class="col-6">
-                    <div class="style0">
-                        <h1 class="style1">Shop at</h1>
-                        <h2 class="style2 font-weight-bold"> <strong> emporium.</strong></h2>
-                        <p class="style3"> A wonderful serenity has taken possession of my entire soul, like<br>these
-                            sweet
-                            mornings of spring which I enjoy with my.
-                        </p>
-                        <button class="style4" type="button">sale items</button>
+    <div id="body-container">
+
+
+
+        <!-- PREMIERE SECTION -->
+        <div class="bg-color">
+            <div class="container-fluid bg-contenu">
+                <div class="row imag1 align-items-center">
+                    <div class="col-6">
+                        <div class="style0">
+                            <h1 class="style1">Shop at</h1>
+                            <h2 class="style2 font-weight-bold"> <strong> emporium.</strong></h2>
+                            <p class="style3"> A wonderful serenity has taken possession of my entire soul, like<br>these
+                                sweet
+                                mornings of spring which I enjoy with my.
+                            </p>
+                            <button class="style4" type="button">sale items</button>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img class="imag2" src="/images/slider-1.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-6">
-                    <img class="imag2" src="/images/slider-1.jpg" alt="">
+            </div>
+        </div>
+        <!-- FIN PREMIERE SECTION -->
+
+        <!-- CATALOG -->
+        <div class="container-fluid container-catalog">
+            <div class="row row-catalog">
+                <div class="col-4 catalog-col align-items-center justify-content-center d-flex">
+                    <img src="/images/services/service-1.jpg" alt="">
+                    <h3>
+                        <a class="catalog-style font-weight-bold" href="#">Living Room</a>
+                    </h3>
+                </div>
+                <div class="col-4 catalog-col align-items-center justify-content-center d-flex">
+                    <img src="/images/services/service-2.jpg" alt="">
+                    <h3>
+                        <a class="catalog-style font-weight-bold " href="#">Sale Items</a>
+                    </h3>
+                </div>
+                <div class="col-4 catalog-col align-items-center justify-content-center d-flex">
+                    <img src="/images/services/slider-3.jpg" alt="">
+                    <h3>
+                        <a class="catalog-style font-weight-bold " href="#">Clothes</a>
+                    </h3>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- FIN PREMIERE SECTION -->
+        <!-- END CATALOG -->
 
-    <!-- CATALOG -->
-    <div class="container-fluid container-catalog">
-        <div class="row row-catalog">
-            <div class="col-4 catalog-col align-items-center justify-content-center d-flex">
-                <img src="/images/services/service-1.jpg" alt="">
-                <h3>
-                    <a class="catalog-style font-weight-bold" href="#">Living Room</a>
-                </h3>
-            </div>
-            <div class="col-4 catalog-col align-items-center justify-content-center d-flex">
-                <img src="/images/services/service-2.jpg" alt="">
-                <h3>
-                    <a class="catalog-style font-weight-bold " href="#">Sale Items</a>
-                </h3>
-            </div>
-            <div class="col-4 catalog-col align-items-center justify-content-center d-flex">
-                <img src="/images/services/slider-3.jpg" alt="">
-                <h3>
-                    <a class="catalog-style font-weight-bold " href="#">Clothes</a>
-                </h3>
-            </div>
-        </div>
-    </div>
-    <!-- END CATALOG -->
+        <!-- PRODUCTS -->
+        <div class="container-fluid product-contain">
+            <h3 class="text-center first-h3 font-weight-bold"><strong>Recent Products</strong></STRONg> </h3>
 
-    <!-- PRODUCTS -->
-    <div class="container-fluid product-contain">
-        <h3 class="text-center first-h3 font-weight-bold"><strong>Recent Products</strong></STRONg> </h3>
-
-        <div class="row product-row justify-content-center">
-            <div class="col-3">
-                <img class="image1 zoom" src="/images/products_mini/product-luxry-sofa.jpg" alt="">
-                <a class="" href=""></a>
-                <h4 class="font-weight-bold text-center">Luxury Sofa</h4>
-                <p class="money 
+            <div class="row product-row justify-content-center">
+                <div class="col-3">
+                    <div class="insideOf">
+                        <div class="imageZoom">
+                            <img class="image1 zoom" src="/images/products_mini/product-luxry-sofa.jpg" alt="">
+                        </div>
+                        <div class="glisse"> <i class="far fa-eye pr-2"></i>View Details</div>
+                        <div class="glissadroite"> <i class="fas fa-shopping-cart pr-2"></i> Add to cart</div>
+                    </div>
+                    <a class="" href=""></a>
+                    <h4 class="font-weight-bold text-center">Luxury Sofa</h4>
+                    <p class="money 
                 font-weight-bold text-center">$600.00</p>
-            </div>
+                </div>
 
-            <div class="col-3 text-center">
-                <img class="image1 zoom" src="/images/products_mini/product-gloves.jpg" alt="">
-                <a href=""></a>
-                <div class="row onsalecol justify-content-center">
-                    <div class="col-12 align-self-center">
-                        <span class="onsale text-center">Sale!</span>
-                        <div class="sous-col">
-                            <h4 class="font-weight-bold text-center">Leather Gloves</h4>
-                            <p class="money font-weight-bold text-center"><span class="gris"> $34.00</span> $27.00</p>
+                <div class="col-3 text-center">
+                    <div class="insideOf">
+                        <div class="imageZoom">
+                            <img class="image1 zoom" src="/images/products_mini/product-gloves.jpg" alt=""></div>
+                        <div class="glisse"><i class="far fa-eye pr-2"></i> View Details</div>
+                        <div class="glissadroite"> <i class="fas fa-shopping-cart pr-2"></i> Add to cart</div>
+                    </div>
+                    <a href=""></a>
+                    <div class="row onsalecol justify-content-center">
+                        <div class="col-12 align-self-center">
+                            <span class="onsale text-center">Sale!</span>
+                            <div class="sous-col">
+                                <h4 class="font-weight-bold text-center">Leather Gloves</h4>
+                                <p class="money font-weight-bold text-center"><span class="gris"> $34.00</span> $27.00</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-3">
-                <img class="image1 zoom" src="/images/products_mini/product-cups.jpg" alt="">
-                <a class="" href=""></a>
-                <h4 class="font-weight-bold text-center">Colorful Bowl</h4>
-                <p class="money font-weight-bold text-center">$18.00</p>
-            </div>
-        </div>
-
-        <div class="row product-row justify-content-center">
-            <div class="col-3 text-center">
-                <img class="image1 zoom" src="/images/products_mini/product-bag.jpg" alt="">
-                <a href=""></a>
-
-                <div class="row onsalecol justify-content-center">
-                    <div class="col-12 align-self-center">
-                        <span class="onsale text-center">Sale!</span>
-                        <div class="sous-col">
-                            <h4 class="font-weight-bold text-center">Women Bag</h4>
-                            <p class="money font-weight-bold text-center"><span class="gris"> $420.00</span> $350.00</p>
-                        </div>
-
+                <div class="col-3">
+                    <div class="insideOf">
+                        <div class="imageZoom">
+                            <img class="image1 zoom" src="/images/products_mini/product-cups.jpg" alt=""></div>
+                        <div class="glisse"> <i class="far fa-eye pr-2"></i> View Details</div>
+                        <div class="glissadroite"> <i class="fas fa-shopping-cart pr-2"></i>Add to cart</div>
                     </div>
+                    <a class="" href=""></a>
+                    <h4 class="font-weight-bold text-center">Colorful Bowl</h4>
+                    <p class="money font-weight-bold text-center">$18.00</p>
                 </div>
             </div>
 
-            <div class="col-3">
-                <img class="image1 zoom" src="/images/products_mini/product-tshitr.jpg" alt="">
-                <a href=""></a>
-                <h4 class="font-weight-bold text-center">Minimal T-Shirt</h4>
-                <p class="money font-weight-bold text-center">$15.00</p>
-            </div>
+            <div class="row product-row justify-content-center">
+                <div class="col-3 text-center">
+                    <div class="insideOf">
+                        <div class="imageZoom">
+                            <img class="image1 zoom" src="/images/products_mini/product-bag.jpg" alt=""></div>
+                        <div class="glisse"> <i class="far fa-eye pr-2"></i> View Details</div>
+                        <div class="glissadroite"><i class="fas fa-shopping-cart pr-2"></i> Add to cart</div>
+                    </div>
+                    <a href=""></a>
+                    <div class="row onsalecol justify-content-center">
+                        <div class="col-12 align-self-center">
+                            <span class="onsale text-center">Sale!</span>
+                            <div class="sous-col">
+                                <h4 class="font-weight-bold text-center">Women Bag</h4>
+                                <p class="money font-weight-bold text-center"><span class="gris"> $420.00</span>
+                                    $350.00</p>
+                            </div>
 
-            <div class="col-3">
-                <img class="image1 zoom" src="/images/products_mini/product-plates.jpg" alt="">
-                <a href=""></a>
-                <h4 class="font-weight-bold text-center">Plates Set</h4>
-                <p class="money font-weight-bold text-center">$30.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="insideOf">
+                        <div class="imageZoom">
+                            <img class="image1 zoom" src="/images/products_mini/product-tshitr.jpg" alt=""></div>
+                        <div class="glisse"> <i class="far fa-eye pr-2"></i> View Details</div>
+                        <div class="glissadroite"> <i class="fas fa-shopping-cart pr-2"></i> Add to cart</div>
+                    </div>
+                    <a href=""></a>
+                    <h4 class="font-weight-bold text-center">Minimal T-Shirt</h4>
+                    <p class="money font-weight-bold text-center">$15.00</p>
+                </div>
+
+                <div class="col-3">
+                    <div class="insideOf">
+                        <div class="imageZoom">
+                            <img class="image1 zoom" src="/images/products_mini/product-plates.jpg" alt=""></div>
+                        <div class="glisse"> <i class="far fa-eye pr-2"></i> View Details</div>
+                        <div class="glissadroite"> <i class="fas fa-shopping-cart pr-2"></i> Add to cart</div>
+                    </div>
+                    <a href=""></a>
+                    <h4 class="font-weight-bold text-center">Plates Set</h4>
+                    <p class="money font-weight-bold text-center">$30.00</p>
+                </div>
+            </div>
+            <div class="row product-row justify-content-center">
+                <div class="col-3">
+                    <div class="insideOf">
+                        <div class="imageZoom">
+                            <img class="image1 zoom" src="/images/products_mini/product-modern-sofa.jpg" alt=""></div>
+                        <div class="glisse"> <i class="far fa-eye pr-2"></i> View Details</div>
+                        <div class="glissadroite"> <i class="fas fa-shopping-cart pr-2"></i> Add to cart</div>
+                    </div>
+                    <a href=""></a>
+                    <h4 class="font-weight-bold text-center">Modern Sofa</h4>
+                    <p class="money font-weight-bold text-center">$900.00</p>
+                </div>
+                <div class="col-3">
+                    <div class="insideOf">
+                        <div class="imageZoom">
+                            <img class="image1 zoom" src="/images/products_mini/product-bed.jpg" alt=""></div>
+                        <div class="glisse"> <i class="far fa-eye pr-2"></i> View Details</div>
+                        <div class="glissadroite"> <i class="fas fa-shopping-cart pr-2"></i> Add to cart</div>
+                    </div>
+                    <a href=""></a>
+                    <h4 class="font-weight-bold text-center">Bed Linen</h4>
+                    <p class="money text-center font-weight-bold">$79.00</p>
+                </div>
+                <div class="col-3">
+                    <div class="insideOf">
+                        <div class="imageZoom">
+                            <img class="image1 zoom" src="/images/products_mini/product-shoes.jpg" alt=""></div>
+                        <div class="glisse"><i class="far fa-eye pr-2"></i> View Details</div>
+                        <div class="glissadroite"> <i class="fas fa-shopping-cart pr-2"></i> Add to cart</div>
+                    </div>
+                    <a href=""></a>
+                    <h4 class=" text-center font-weight-bold">Minimal Shoes</h4>
+                    <p class="money text-center font-weight-bold">$60.00</p>
+                </div>
             </div>
         </div>
-        <div class="row product-row justify-content-center">
-            <div class="col-3">
-                <img class="image1 zoom" src="/images/products_mini/product-modern-sofa.jpg" alt="">
-                <a href=""></a>
-                <h4 class="font-weight-bold text-center">Modern Sofa</h4>
-                <p class="money font-weight-bold text-center">$900.00</p>
+
+        <!-- END PRODUCTS -->
+
+        <!-- PARALLAX -->
+        <div class="section parallax-box text-center">
+            <div class="parallax"></div>
+            <div class="title-para">
+                <h1 class="font-para bold"><strong> Discover Thousands Of Great Products </strong></h1>
+                <button class="style4" type="button">Learn more</button>
             </div>
-            <div class="col-3">
-                <img class="image1 zoom" src="/images/products_mini/product-bed.jpg" alt="">
-                <a href=""></a>
-                <h4 class="font-weight-bold text-center">Bed Linen</h4>
-                <p class="money text-center font-weight-bold">$79.00</p>
-            </div>
-            <div class="col-3">
-                <img class="image1 zoom" src="/images/products_mini/product-shoes.jpg" alt="">
-                <a href=""></a>
-                <h4 class=" text-center font-weight-bold">Minimal Shoes</h4>
-                <p class="money text-center font-weight-bold">$60.00</p>
-            </div>
+            <div class="parallax"></div>
         </div>
-    </div>
 
-    <!-- END PRODUCTS -->
+        <!-- END PARALLAX -->
 
-    <!-- PARALLAX -->
-    <div class="section parallax-box text-center">
-        <div class="parallax"></div>
-        <div class="title-para">
-            <h1 class="font-para bold"><strong> Discover Thousands Of Great Products </strong></h1>
-            <button class="style4" type="button">Learn more</button>
-        </div>
-        <div class="parallax"></div>
-    </div>
+        <!-- HOTCLOTHE -->
+        <section id="carousel">
 
-    <!-- END PARALLAX -->
+            <div class="grandeBox">
+                <div class="container-fluid product-contain">
+                    <h3 class="text-center second-h3 font-weight-bold"><strong>Hot Fashion Products</strong></strong>
+                    </h3>
 
-    <!-- HOTCLOTHE -->
-
-    <div class="container-fluid product-contain">
-        <h3 class="text-center second-h3 font-weight-bold"><strong>Hot Fashion Products</strong></strong> </h3>
-
-        <div class="row hot-row justify-content-center">
-            <div class="col-2">
-                <img class="image1 zoom" src="/images/products/product-tshitr-white-700x500.jpg" alt="">
-                <a class="" href=""></a>
-                <h4 class="font-weight-bold text-center">White T-Shirt</h4>
-                <p class="money 
+                    <div class="row hot-row">
+                        <div class="col-3">
+                            <img class="image1 zoom" src="/images/products/product-tshitr-white-700x500.jpg" alt="">
+                            <a class="" href=""></a>
+                            <h4 class="font-weight-bold text-center">White T-Shirt</h4>
+                            <p class="money 
                 font-weight-bold text-center">$23.00</p>
-            </div>
+                        </div>
 
-            <div class="col-2 text-center">
-                <img class="image1 zoom" src="/images/products/product-bag-2-700x500.jpg" alt="">
-                <a href=""></a>
-                <div class="row onsalecol justify-content-center">
-                    <div class="col-12 align-self-center">
-                        <span class="onsale text-center">Sale!</span>
-                        <div class="sous-col">
-                            <h4 class="font-weight-bold text-center">Leather Gloves</h4>
-                            <p class="money font-weight-bold text-center"><span class="gris"> $600.00</span> $450.00</p>
+                        <div class="col-3 text-center">
+                            <img class="image1 zoom" src="/images/products/product-bag-2-700x500.jpg" alt="">
+                            <a href=""></a>
+                            <div class="row onsalecol justify-content-center">
+                                <div class="col-12 align-self-center">
+                                    <span class="onsale text-center">Sale!</span>
+                                    <div class="sous-col">
+                                        <h4 class="font-weight-bold text-center">Leather Gloves</h4>
+                                        <p class="money font-weight-bold text-center"><span class="gris"> $600.00</span>
+                                            $450.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <img class="image1 zoom" src="/images/products/product-jacket-700x500.jpg" alt="">
+                            <a class="" href=""></a>
+                            <h4 class="font-weight-bold text-center">Sporty Jacket</h4>
+                            <p class="money font-weight-bold text-center">$40.00</p>
+                        </div>
+                        <div class="col-3">
+                            <img class="image1 zoom" src="/images/products/product-shoes-700x500.jpg" alt="">
+                            <a class="" href=""></a>
+                            <h4 class="font-weight-bold text-center">Minimal T-Shirt</h4>
+                            <p class="money font-weight-bold text-center">$15.00</p>
+                        </div>
+                        <div class="col-3">
+                            <img class="image1 zoom" src="/images/products/product-tshitr-700x500.jpg" alt="">
+                            <a class="" href=""></a>
+                            <h4 class="font-weight-bold text-center">Minimal Shoes</h4>
+                            <p class="money font-weight-bold text-center">$60.00</p>
+                        </div>
+                        <div class="col-3 text-center">
+                            <img class="image1 zoom" src="/images/products/product-bag-700x500.jpg" alt="">
+                            <a href=""></a>
+                            <div class="row onsalecol justify-content-center">
+                                <div class="col-12 align-self-center">
+                                    <span class="onsale text-center">Sale!</span>
+                                    <div class="sous-col">
+                                        <h4 class="font-weight-bold text-center">Women Bag</h4>
+                                        <p class="money font-weight-bold text-center"><span class="gris"> $420.00</span>
+                                            $350.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 text-center">
+                            <img class="image1 zoom" src="/images/products/product-jacket-700x500.jpg" alt="">
+                            <a href=""></a>
+                            <div class="row onsalecol justify-content-center">
+                                <div class="col-12 align-self-center">
+                                    <span class="onsale text-center">Sale!</span>
+                                    <div class="sous-col">
+                                        <h4 class="font-weight-bold text-center">Leather Gloves</h4>
+                                        <p class="money font-weight-bold text-center"><span class="gris"> $34.00</span>
+                                            $27.00</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <i class="fas fa-circle"></i>
+            <i class="far fa-circle"></i>
+            <i class="far fa-circle"></i>
+            <i class="far fa-circle"></i>
 
-            <div class="col-2">
-                <img class="image1 zoom" src="/images/products/product-jacket-700x500.jpg" alt="">
-                <a class="" href=""></a>
-                <h4 class="font-weight-bold text-center">Sporty Jacket</h4>
-                <p class="money font-weight-bold text-center">$40.00</p>
+        </section>
+
+        <!-- END HOTCLOTHE -->
+
+        <!-- INFO -->
+        <div id="info-section" class="container-fluid">
+            <div class="row info-row justify-content-center">
+                <div class="col-4 first-col text-center">
+                    <div class="fond1">
+                        <i class=" w-100 far fa-check-circle fa-2x font-weight-bold"></i>
+                        <h5 class="font-weight-bold"> Trsuted by 10,000+ Customers</h5>
+                        <span><br>Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and
+                            Consonantia, there live the <br> blind texts.<br></span>
+                        <button class="styleinfo" type="button">Learn more</button>
+                    </div>
+
+                </div>
+                <div class="col-4 text-center">
+                    <div class="fond2">
+                        <i class="w-100 fas fa-paper-plane fa-2x font-weight-bold middle-info"></i>
+                        <h5 class="font-weight-bold middle-info">Very fast shipping</h5>
+                        <span class="middle-info"><br>Far far away, behind the word <br> mountains, far from the
+                            countries<br> Vokalia and
+                            Consonantia, there live the<br> blind texts.<br></span>
+                        <button class="styleinfo2" type="button">Learn more</button>
+                    </div>
+
+                </div>
+                <div class="col-4 text-center">
+                    <div class="fond1">
+                        <i class="w-100 far fa-check-circle fa-2x font-weight-bold"></i>
+                        <h5 class="font-weight-bold">Trsuted by 10,000+ Customers</h5>
+                        <span><br>Far far away, behind the word<br> mountains, far from the countries<br> Vokalia and
+                            Consonantia, there live the<br> blind texts.<br></span>
+                        <button class="styleinfo" type="button">Learn more</button>
+                    </div>
+
+                </div>
             </div>
-            <div class="col-2">
-                <img class="image1 zoom" src="/images/products/product-shoes-700x500.jpg" alt="">
-                <a class="" href=""></a>
-                <h4 class="font-weight-bold text-center">Minimal Shoes</h4>
-                <p class="money font-weight-bold text-center">$60.00</p>
-
-                <!-- <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol> -->
-            </div>
-
         </div>
+
+        <!-- END INFO -->
+
+        <!-- FOOTER -->
+
+        <footer class="">
+            <div id="footer-end" class="">
+                <div class="row">
+                    <div class="col-4 border-right">
+                        <h5 class="style10"><strong> About Us</strong></h5>
+                        <p>A wonderful serenity has taken possession of my<br> entire soul, like these sweet mornings
+                            of spring<br> which I enjoy with my whole heart. I am alone, and<br> feel the charm of
+                            existence in this spot, which was<br> created for the bliss of</p>
+                    </div>
+                    <div class="col-4 border-right">
+                        <h5 class="style10"><strong> Recent Posts</strong></h5>
+                        <ul>
+                            <li class="
+                        border-bottom">
+                                <i class="fas fa-angle-right"></i>
+                                <a class="listage" href="">Hello world!</a>
+                            </li>
+                            <li class="
+                        border-bottom">
+                                <i class="fas fa-angle-right"></i>
+                                <a class="listage" href="">Wonderful serenity has taken</a>
+                            </li>
+                            <li class="
+                        border-bottom">
+                                <i class="fas fa-angle-right"></i>
+                                <a class="listage" href="">In my soul and absorb its power</a>
+                            </li>
+                            <li class="
+                        border-bottom">
+                                <i class="fas fa-angle-right"></i>
+                                <a class="listage" href="">I hear the buzz of the little</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h5 class="style10"><strong> Tag Cloud</strong></h5>
+                        <a href="" class="border tag-border">Business</a>
+                        <a href="" class=" border tag-border">Conference</a>
+                        <a href="" class=" border tag-border">Gadgets</a>
+
+                        <br>
+                        <a href="" class="border tag-border">Identity</a>
+                        <a href="" class=" border tag-border">Logo</a>
+                        <a href="" class="border tag-border">Photography</a>
+                        <br>
+                        <a href="" class=" border tag-border">Time</a>
+                        <a href="" class=" border tag-border">Trips</a>
+                        <a href="" class=" border tag-border">Works</a>
+                        <br>
+                        <a href="" class=" border tag-border">Work Space</a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <section class="end text-center">
+            <div class="end-section">
+                <h3 class="styleEnd">Copyright 2020 goodlayers, all right reserved</h3>
+            </div>
+        </section>
+
+        <!-- END FOOTER -->
     </div>
-    <!-- END HOTCLOTHE -->
-
-    <!-- INFO -->
-    <div id="info-section" class="container-fluid">
-        <div class="row info-row justify-content-center">
-            <div class="col-4 first-col text-center">
-                <div class="fond1">
-                    <i class=" w-100 far fa-check-circle fa-2x font-weight-bold"></i>
-                    <h5 class="font-weight-bold"> Trsuted by 10,000+ Customers</h5>
-                    <span><br>Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and
-                        Consonantia, there live the <br> blind texts.<br></span>
-                    <button class="styleinfo" type="button">Learn more</button>
-                </div>
-
-            </div>
-            <div class="col-4 text-center">
-                <div class="fond2">
-                    <i class="w-100 fas fa-paper-plane fa-2x font-weight-bold middle-info"></i>
-                    <h5 class="font-weight-bold middle-info">Very fast shipping</h5>
-                    <span class="middle-info"><br>Far far away, behind the word <br> mountains, far from the
-                        countries<br> Vokalia and
-                        Consonantia, there live the<br> blind texts.<br></span>
-                    <button class="styleinfo2" type="button">Learn more</button>
-                </div>
-
-            </div>
-            <div class="col-4 text-center">
-                <div class="fond1">
-                    <i class="w-100 far fa-check-circle fa-2x font-weight-bold"></i>
-                    <h5 class="font-weight-bold">Trsuted by 10,000+ Customers</h5>
-                    <span><br>Far far away, behind the word<br> mountains, far from the countries<br> Vokalia and
-                        Consonantia, there live the<br> blind texts.<br></span>
-                    <button class="styleinfo" type="button">Learn more</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- END INFO -->
-
-    <!-- FOOTER -->
-
-    <footer class="">
-        <div id="footer-end" class="">
-            <div class="row">
-                <div class="col-4 border-right">
-                    <h5 class="style10"><strong> About Us</strong></h5>
-                    <p>A wonderful serenity has taken possession of my<br> entire soul, like these sweet mornings
-                        of spring<br> which I enjoy with my whole heart. I am alone, and<br> feel the charm of
-                        existence in this spot, which was<br> created for the bliss of</p>
-                </div>
-                <div class="col-4 border-right">
-                    <h5 class="style10"><strong> Recent Posts</strong></h5>
-                    <ul>
-                        <li class="
-                        border-bottom">
-                            <i class="fas fa-angle-right"></i>
-                            <a class="listage" href="">Hello world!</a>
-                        </li>
-                        <li class="
-                        border-bottom">
-                            <i class="fas fa-angle-right"></i>
-                            <a class="listage" href="">Wonderful serenity has taken</a>
-                        </li>
-                        <li class="
-                        border-bottom">
-                            <i class="fas fa-angle-right"></i>
-                            <a class="listage" href="">In my soul and absorb its power</a>
-                        </li>
-                        <li class="
-                        border-bottom">
-                            <i class="fas fa-angle-right"></i>
-                            <a class="listage" href="">I hear the buzz of the little</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <h5 class="style10"><strong> Tag Cloud</strong></h5>
-                    <a href="" class="border tag-border">Business</a>
-                    <a href="" class=" border tag-border">Conference</a>
-                    <a href="" class=" border tag-border">Gadgets</a>
-
-                    <br>
-                    <a href="" class="border tag-border">Identity</a>
-                    <a href="" class=" border tag-border">Logo</a>
-                    <a href="" class="border tag-border">Photography</a>
-                    <br>
-                    <a href="" class=" border tag-border">Time</a>
-                    <a href="" class=" border tag-border">Trips</a>
-                    <a href="" class=" border tag-border">Works</a>
-                    <br>
-                    <a href="" class=" border tag-border">Work Space</a>
-
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <section class="end text-center">
-        <div class="end-section">
-            <h3 class="styleEnd">Copyright 2020 goodlayers, all right reserved</h3>
-        </div>
-    </section>
-
-    <!-- END FOOTER -->
 
     <script src="/public/js/main.js"></script>
 </body>

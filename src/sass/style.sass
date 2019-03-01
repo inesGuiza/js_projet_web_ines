@@ -26,6 +26,27 @@ $grisFond: rgb(243, 243, 243)
 // a img 
 //     vertical-align: middle
 
+#login-container
+    position: fixed
+    z-index: 1
+    left: 0
+    right: 0
+    display: none
+    margin-top: 400px
+    background-color: white
+    border: solid 1px #6c757d
+    border-radius: 30px
+    padding: 20px 0px 20px 0px
+    input
+        width: 50%
+        margin-left: 18rem
+    label 
+        text-transform: uppercase
+.text-info
+    font-family: Poppins
+    font-size: 25px
+
+
 .emp-header-container
     padding-left: 35px
     padding-right: 35px
@@ -41,7 +62,9 @@ $grisFond: rgb(243, 243, 243)
     margin-left: auto
     margin-right: auto
 .navbar
-    // position: relative
+    position: fixed 
+    z-index: 20 
+    width: 100% 
     padding-top: 25px
 .emp-navigation
     justify-content: center
@@ -51,6 +74,21 @@ $grisFond: rgb(243, 243, 243)
     padding-right: 0px
     display: inline
     vertical-align: top
+.sticky 
+    opacity: 1
+    position: fixed
+    top: 0px
+    width: 100%
+    transition: all 1s
+.sticky2
+    opacity: 0
+    position: fixed
+    top: -100px
+    transition: all 1s
+    
+.sticky + #body-container
+    padding-top: 118px
+
 
 #navigation-1
     // position: relative
@@ -156,4 +194,17 @@ $grisFond: rgb(243, 243, 243)
 .imag2
     width: 0.9
     height: 0.9
+
+// CAROUSEL
+#carousel
+    text-align: center
+    .grandebox 
+        overflow: hidden
+    .container-fluid
+        overflow: hidden
+        width: 80%
+    .row 
+        flex-wrap: nowrap
+        transition: all 1s
+
     
